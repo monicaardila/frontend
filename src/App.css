@@ -1,0 +1,37 @@
+.App-logo {
+  width: 15%;
+  height: 50%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 20px;
+  height: 60px;
+  border: 1px solid red;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.barNavigation {
+  margin-left: 25px;
+  font-size: 9px;
+  font: caption;
+  text-align: center;
+  color: black;
+}
+.main {
+  background: url("https://static.wixstatic.com/media/61449d37e2c84f6ca369b41542d785a3.jpg");
+  height: 250px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 1px solid red;
+}
