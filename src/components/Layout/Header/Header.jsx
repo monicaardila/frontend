@@ -6,11 +6,11 @@ import "./header.css";
 function Header() {
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
+      <nav className="navbar navbar-expand navbar-dark bg-custom">
         <div className="container">
-          <Logo></Logo>
+          <Logo/>
           <div>
-            <Navbar></Navbar>
+          <Navbar/>
           </div>
         </div>
       </nav>

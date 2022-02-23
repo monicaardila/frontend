@@ -1,3 +1,7 @@
+.App{
+  margin: 0%;
+  padding: 0%;
+}
 .App-logo {
   width: 15%;
   height: 50%;
@@ -8,7 +12,6 @@
   align-items: center;
   padding: 0 40px 0 20px;
   height: 60px;
-  border: 1px solid red;
 }
 .menu {
   display: flex;
@@ -34,4 +37,40 @@
   justify-content: center;
   position: relative;
   border: 1px solid red;
+}
+
+.bg-custom{
+  background-color: #173647 ;
+}
+.img{
+  margin: 5% 5%;
+}
+.container_inf{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn-enviar{
+  display: flex;
+  background-color: #173647 ;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  height: 2em;
+  color: white;
+}
+.style_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem 2rem 1rem ;
+  background-color:rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 0 rgb(17, 75, 102);
+  font-size: 1rem;
+  color: rgb(17, 75, 102);
+  margin: 1rem;
+  text-align: center;
 }

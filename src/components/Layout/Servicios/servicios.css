@@ -1,0 +1,32 @@
+.title{
+    margin: 2% 5%;
+}
+.servicios{
+    display: flex;
+    flex-wrap: wrap
+}
+.card_servicios{
+    margin: 2%;
+    background-color: brown;
+
+}
+.Servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem 2rem 1rem ;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 0 #D0D5D7;
+    font-size: 1rem;
+    color: rgb(17, 75, 102);
+    text-align: center;
+    margin: 5% 5%;
+    
+}
+.styleCard{
+    font-size: 2em;
+    color: black;
+    font-size:larger;
+}

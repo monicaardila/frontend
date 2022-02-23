@@ -1,14 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./styles.css";
+import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div>
+    <div className="todo">
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
           <NavLink className="nav-link" to="/">
-            Inicio
+            <p> Inicio</p>
             <span className="sr-only">(current)</span>
           </NavLink>
         </li>
