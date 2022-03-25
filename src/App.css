@@ -1,17 +1,13 @@
 .App{
   margin: 0%;
   padding: 0%;
+  display: flex;
+  flex-direction: column;
+  background-color: #eff1f3;
 }
 .App-logo {
   width: 15%;
   height: 50%;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 40px 0 20px;
-  height: 60px;
 }
 .menu {
   display: flex;
@@ -36,12 +32,8 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  border: 1px solid red;
 }
 
-.bg-custom{
-  background-color: #173647 ;
-}
 .img{
   margin: 5% 5%;
 }
@@ -51,15 +43,7 @@
   align-items: center;
   justify-content: center;
 }
-.btn-enviar{
-  display: flex;
-  background-color: #173647 ;
-  align-items: center;
-  justify-content: center;
-  width: 10em;
-  height: 2em;
-  color: white;
-}
+
 .style_card{
   display: flex;
   flex-direction: column;
@@ -73,4 +57,8 @@
   color: rgb(17, 75, 102);
   margin: 1rem;
   text-align: center;
+  flex-direction: column;
 }
+  .p{
+    border:nome;
+  }

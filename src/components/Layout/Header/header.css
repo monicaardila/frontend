@@ -1,20 +1,12 @@
-/*{
-    box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
 }
-.navigation .navbar  .container{ 
-    background-color: rgb(0, 4, 233);
-    display :flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-}
-.navbar-brand{
-    background-color: rgb(255, 255, 255);
-    display: flex; 
-}
-.container{
+.navigation{
     width: 100%;
-    margin: 0 auto;
+    /*position: fixed;*/
     
-}/*/
-
+}
+.bg-custom{
+    background-color: #173647;z-index: 100%;
+}

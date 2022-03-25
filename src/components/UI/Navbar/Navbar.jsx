@@ -4,32 +4,31 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="todo">
-      <ul className="navbar-nav ml-auto">
+    <div className="Navbar">
+      <ul className="navbar-nav mx-auto">
         <li className="nav-item">
           <NavLink className="nav-link" to="/">
             <p> Inicio</p>
-            <span className="sr-only">(current)</span>
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="./Informacion">
+          <a className="nav-link" href="#Informacion">
             Informacion
-          </NavLink>
+          </a>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="./Servicios">
+          <a className="nav-link" href="#Servicios">
             Servicios
-          </NavLink>
+          </a>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="./Para_Desarrolladores">
-            Para Desarrolladores
+            Desarrolladores
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/Contacto">
-            Contactos
+          <NavLink className="nav-link" to="./Contacto">
+            Acerca de nosotros
           </NavLink>
         </li>
       </ul>

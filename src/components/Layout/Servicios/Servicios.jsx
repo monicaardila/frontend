@@ -4,74 +4,56 @@ import { Button } from "../../UI/Buttons/Button";
 import"./servicios.css"
 function servicios(){
     return(
-    <div className="container_servicios">
+    <div className="container_servicio" id="Servicios">
         <h2 className="title">SERVICIOS</h2>
         <div className="servicios">
             <div className="Servicio">
                 <ServiciosCard
-                title= "Servicio_1"
+                title= "Basic"
                 style_card= "styleCard"
+                precio="100"
+                capacidad= "100"
+                numUsuarios="2"
+                envios="3"
                 />
+                
                 <Button
-                styleButton = "btn-enviar"
-                textButton= "Comprar"
+                nomClas= "btn-buy"
+                textButton= "Buy Now"
                 />
             </div>
         
             <div className="Servicio">
                 <ServiciosCard
-                title= "Servicio_2"
+                title= "Professional"
                 style_card= "styleCard"
+                precio="120"
+                capacidad= "150"
+                numUsuarios="3"
+                envios="5"
+
                 />
                 <Button
-                styleButton = "btn-enviar"
-                textButton= "Comprar"
+                nomClas= "btn-buy"
+                textButton= "Buy Now"
                 />
             </div>
 
             <div className="Servicio">
                 <ServiciosCard
-                title= "Servicio_3"
+                title= "Master"
                 style_card= "styleCard"
+                precio="150"
+                capacidad= "200"
+                numUsuarios="10"
+                envios="8"
                 />
                 <Button
-                styleButton = "btn-enviar"
-                textButton= "Comprar"
+                nomClas= "btn-buy"
+                textButton= "Buy Now"
                 />
             </div>
 
-            <div className="Servicio">
-                <ServiciosCard
-                title= "Servicio_4"
-                style_card= "styleCard"
-                /> <br/>
-                <Button
-                styleButton = "btn-enviar"
-                textButton= "Comprar"
-                />
-            </div>
-
-            <div className="Servicio">
-                <ServiciosCard
-                title= "Servicio_5"
-                style_card= "styleCard"
-                />
-                <Button
-                styleButton = "btn-enviar"
-                textButton= "Comprar"
-                />
-            </div>
-            <div className="Servicio">
-                <ServiciosCard
-                title= "Servicio_6"
-                style_card= "styleCard"
-                /> <br/>
-                <Button
-                styleButton = "btn-enviar"
-                textButton= "Comprar"
-                />
-            </div>
-            
         </div> 
     </div>
     )

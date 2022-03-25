@@ -1,32 +1,82 @@
-.title{
-    margin: 2% 5%;
+body{
+    width: 100%;
+    height: 100%;
+}
+.container_servicio{
+    display: flex;
+    margin: 0% 15% 4%;
+    flex-direction: column;
 }
 .servicios{
     display: flex;
-    flex-wrap: wrap
+    margin: 0% 10%;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+    
 }
-.card_servicios{
-    margin: 2%;
-    background-color: brown;
 
-}
-.Servicio{
+.servicios .Servicio{
+    width: 290px;
+    height: 430%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 1rem 2rem 1rem ;
-    background-color:rgb(255, 255, 255);
-    border-radius: 10px;
-    box-shadow: 4px 4px 0 0 #D0D5D7;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 5px rgba(90, 90, 90, 0.2);
     font-size: 1rem;
+    overflow: hidden;
     color: rgb(17, 75, 102);
     text-align: center;
-    margin: 5% 5%;
-    
+    margin: 5% 1%;
+    transition: all 0.5s;
+    opacity: 100%;
+} 
+.servicios .Servicio:hover{
+    border-top: 10px solid #22022e ;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 0 0 5px 5px rgb(201, 201, 201);
+    z-index: 1;
 }
 .styleCard{
     font-size: 2em;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size:larger;
+    display: flex;
+    flex-direction: column
+}
+
+.title{
+    font-size: 2rem;
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+    color: rgb(239, 241, 243);
+}
+.title:after .title:before{
+    content:'';
+    position:absolute;
+    width: 120px;
+    height: 3px;
+    background-color: black;
+}
+.btn-buy{
+    display: flex; 
+    border: 1px solid #EFF0F0;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    height: 2em;
+    color: rgb(0, 0, 0);
+    cursor:pointer;
+    transition: .3s ease all;
+    background-color:#173647;
+}
+.btn-buy:hover{
+    background-color: #ffffff ;
 }
