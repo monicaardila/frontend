@@ -4,9 +4,21 @@
 }
 .navigation{
     width: 100%;
-    /*position: fixed;*/
-    
+    height: 70px;
+}
+.navbar-nav{
+    margin: 0%;
+    padding: 0%;
 }
 .bg-custom{
-    background-color: #173647;z-index: 100%;
+    background-color: #173647;
+    z-index: 60%;
+    padding: 0%;
+    height:100% ;
+}
+.nav-link:hover {
+    text-decoration-line: overline;
+}
+.navbar-nav .container{
+    width: 100%;
 }

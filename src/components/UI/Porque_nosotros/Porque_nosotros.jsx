@@ -14,9 +14,9 @@ const Porque_nostros = () => {
                 titulo_section="Porque con nosotros"
                 sub_titulo1="Soporte 24/7"
                 texto1="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quod debitis excepturi sed iusto nemo quibusdam qui esse similique harum sunt ipsam suscipit, maiores dolore consequatur illo provident. Modi, molestias."
-                sub_titulo2="otra cosa "
+                sub_titulo2="Web service"
                 texto2="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quod debitis excepturi sed iusto nemo quibusdam qui esse similique harum sunt ipsam suscipit, maiores dolore consequatur illo provident. Modi, molestias."
-                sub_titulo3="otra cosa"
+                sub_titulo3="Panel administrativo"
                 texto3="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quod debitis excepturi sed iusto nemo quibusdam qui esse similique harum sunt ipsam suscipit, maiores dolore consequatur illo provident. Modi, molestias."
             />
 

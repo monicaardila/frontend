@@ -14,8 +14,6 @@ export const ServiciosCard = ({ title, style_card, precio, capacidad, numUsuario
                 <p>{numUsuarios} User Allowed</p>
                 <hr className="hrCard"/>
                 <p>Send up to {envios} GB</p>
-                <hr className="hrCard"/>
-                <p>support</p>
             </div>
         </div>
     )

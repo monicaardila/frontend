@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { IconContext } from "react-icons"
 import "./Navbar.css";
 
 function Navbar() {
@@ -8,27 +9,27 @@ function Navbar() {
       <ul className="navbar-nav mx-auto">
         <li className="nav-item">
           <NavLink className="nav-link" to="/">
-            <p> Inicio</p>
+            <p>Inicio</p>
           </NavLink>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#Informacion">
-            Informacion
+            <p>Informacion</p>
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#Servicios">
-            Servicios
+            <p>Planes</p>
           </a>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="./Para_Desarrolladores">
-            Desarrolladores
+            <p>Desarrolladores</p>
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="./Contacto">
-            Acerca de nosotros
+            <p>Acerca de nosotros</p>
           </NavLink>
         </li>
       </ul>

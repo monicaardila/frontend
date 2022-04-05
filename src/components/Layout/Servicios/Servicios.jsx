@@ -5,7 +5,7 @@ import"./servicios.css"
 function servicios(){
     return(
     <div className="container_servicio" id="Servicios">
-        <h2 className="title">SERVICIOS</h2>
+        <h2 className="title">PLANES</h2>
         <div className="servicios">
             <div className="Servicio">
                 <ServiciosCard

@@ -1,12 +1,16 @@
 import React from "react";
-import"./informacion.css"
+import "./informacion.css"
 
-function informacion (){
+function informacion() {
     return (
         <div className="informacion" id="Informacion">
-            <h2 className="Titulo">INFORMACION</h2>
-            <div className="Texto_info">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            <div className="text-box">
+                <h2 className="Titulo">SMS MADS</h2>
+            </div>
+            <div className="Texto_info">Por medio de este sistema las organizaciones pueden configurar de acuerdo a sus necesidades la gestión de sus clientes, por lo cual pueden personalizar sus mediciones mediante el panel de control, visualizando en todo momento los recursos disponibles.
+                El sistema le permite administrar, ver los recursos disponibles y parametrizar, el uso de gráficos en el Panel de control, le permite medir los recursos que la empresa podrá usar para llegar a sus clientes, mediante el uso de mensajes de texto.
+                Una característica muy destacada del sistema es la posibilidad de que puedan usar el API DIGITURNO SMS MADS, y también como elemento integrador puedan organizar  la gestión de sus indicadores.
+                ¡Solicita ya tu plan y elige la mejor opción para tu empresa!
             </div>
         </div>
     );

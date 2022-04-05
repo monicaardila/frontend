@@ -22,18 +22,6 @@
   text-align: center;
   color: black;
 }
-.main {
-  background: url("https://static.wixstatic.com/media/61449d37e2c84f6ca369b41542d785a3.jpg");
-  height: 250px;
-  background-position: 100%;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
 .img{
   margin: 5% 5%;
 }
@@ -61,4 +49,6 @@
 }
   .p{
     border:nome;
+    text-align: justify;
+    margin: 0%;
   }

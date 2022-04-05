@@ -18,7 +18,7 @@ function TextoFooter(){
             </div>
             <div className="box_copyrigh">
                 <hr/>
-                <p>Todos los derechos reservados &copy; 2022
+                <p>Todos los derechos reservados &copy; 2022-
                     <b>Digiturno</b></p>
             </div> 
         </footer>

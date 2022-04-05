@@ -1,4 +1,5 @@
 import React from "react";
+import "./section.css"
 export const Section = ({ sub_titulo1, texto1, texto2,texto3, titulo_section,sub_titulo2,sub_titulo3}) => {
     return (
         <section className="section bg-c-light">
