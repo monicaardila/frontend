@@ -70,7 +70,7 @@ body{
     justify-content: center;
     width: 10em;
     height: 2em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     cursor:pointer;
     transition: .3s ease all;
     background-color:#173647;
@@ -78,4 +78,5 @@ body{
 }
 .btn-buy:hover{
     background-color: #ffffff ;
+    color: black;
 }

@@ -16,7 +16,6 @@ function Acerca_de_nosotros() {
                                 <p>
                                 A medida que la tecnología avanza, se va dejando de lado, el impacto visual que tienen las largas filas en establecimientos privados y públicos, y que en la actualidad puede representar un riesgo inminente en la salud y la vida de cada una de las personas que están presente en ellas. 
                                 Desde el punto de vista cultural,el impacto es grande en gran parte del país, las filas y los largos tiempos de espera, puede representar malestar ocasionando que los turnos de atención se pierdan, lo que representa en muchas organizaciones, la pérdida de  ganancias ya que una de sus actividades principales, es la recepción de personas para la atención de sus solicitudes.
-
                                 </p>
                             </div>
                         </div>

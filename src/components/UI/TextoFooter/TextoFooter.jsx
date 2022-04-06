@@ -9,9 +9,9 @@ function TextoFooter(){
             <div className="container_footer">
                 <div className="servicios">
                 <Logo/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quae suscipit vitae, rem at blanditiis qui velit modi error fugit! Sunt atque autem ipsum distinctio asperiores, necessitatibus ullam aperiam ab?</p>
+                <p className="texto_footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. A quae suscipit vitae, rem at blanditiis qui velit modi error fugit! Sunt atque autem ipsum distinctio asperiores, necessitatibus ullam aperiam ab?</p>
             </div>
-            <div className="copyrigh">Copyright &copy; 2022</div> 
+            <div className="copyrigh"><Logo/></div> 
             <div className="Integrantes">
                 <Integrantes/>
             </div> 

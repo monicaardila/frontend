@@ -14,7 +14,7 @@ function Navbar() {
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#Informacion">
-            <p>Informacion</p>
+            <p>Información</p>
           </a>
         </li>
         <li className="nav-item">

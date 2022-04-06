@@ -9,7 +9,7 @@ function servicios(){
         <div className="servicios">
             <div className="Servicio">
                 <ServiciosCard
-                title= "Basic"
+                title= "Basico"
                 style_card= "styleCard"
                 precio="100"
                 capacidad= "100"
@@ -19,13 +19,13 @@ function servicios(){
                 
                 <Button
                 nomClas= "btn-buy"
-                textButton= "Buy Now"
+                textButton= "Comprar"
                 />
             </div>
         
             <div className="Servicio">
                 <ServiciosCard
-                title= "Professional"
+                title= "Profesional"
                 style_card= "styleCard"
                 precio="120"
                 capacidad= "150"
@@ -35,7 +35,7 @@ function servicios(){
                 />
                 <Button
                 nomClas= "btn-buy"
-                textButton= "Buy Now"
+                textButton= "Comprar"
                 />
             </div>
 
@@ -50,7 +50,7 @@ function servicios(){
                 />
                 <Button
                 nomClas= "btn-buy"
-                textButton= "Buy Now"
+                textButton= "Comprar"
                 />
             </div>
 

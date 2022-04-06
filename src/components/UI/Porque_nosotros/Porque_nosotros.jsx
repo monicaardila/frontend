@@ -6,10 +6,6 @@ import "./porque_nosotros.css"
 const Porque_nostros = () => {
     return (
         <div className="porque_nosotros">
-            <Slider_interno
-                img={porque}
-            />
-            <section className="section bg-c-light">
             <Section
                 titulo_section="Porque con nosotros"
                 sub_titulo1="Soporte 24/7"
@@ -19,8 +15,6 @@ const Porque_nostros = () => {
                 sub_titulo3="Panel administrativo"
                 texto3="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quod debitis excepturi sed iusto nemo quibusdam qui esse similique harum sunt ipsam suscipit, maiores dolore consequatur illo provident. Modi, molestias."
             />
-
-            </section>
         </div>
     );
 }

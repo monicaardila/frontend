@@ -5,7 +5,7 @@ import "./logo.css"
 
 function Logo() {
   return (
-    <div>
+    <div className="container_logo">
       <NavLink className="navbar-brand" to="/">
         <img class="img" src={logo} alt="logo"  />
         Digiturnos
