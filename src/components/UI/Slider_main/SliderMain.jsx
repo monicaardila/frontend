@@ -8,6 +8,8 @@ import img3 from "../../../Images/img3.jpg"
 import img4 from "../../../Images/img4.jpg"
 import img5 from "../../../Images/img5.jpg"
 import img6 from "../../../Images/img6.jpg"
+import img7 from "../../../Images/img7.jpg"
+import img8 from "../../../Images/img8.jpg"
 
 import "./sliderMain.css"
 
@@ -23,6 +25,8 @@ const SliderMain = () => {
                     <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
                     <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
                     <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+                    <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></li>
+                    <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"></li>
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -63,6 +67,20 @@ const SliderMain = () => {
                     <div className="carousel-item">
                         <Slider_interno
                             img={img6}
+                            title="Disfruta de tu liberta con Digiturnos"
+                            text="Dile NO alas filas"
+                        />
+                    </div>
+                    <div className="carousel-item">
+                        <Slider_interno
+                            img={img7}
+                            title="Disfruta de tu liberta con Digiturnos"
+                            text="Dile NO alas filas"
+                        />
+                    </div>
+                    <div className="carousel-item">
+                        <Slider_interno
+                            img={img8}
                             title="Disfruta de tu liberta con Digiturnos"
                             text="Dile NO alas filas"
                         />

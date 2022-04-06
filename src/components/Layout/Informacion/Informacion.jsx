@@ -5,7 +5,7 @@ function informacion() {
     return (
         <div className="informacion" id="Informacion">
             <div className="text-box">
-                <h2 className="Titulo">SMS MADS</h2>
+                <h2 className="Titulo">INFORMACION</h2>
             </div>
             <div className="Texto_info">
                 <p className="texto_info">Por medio de este sistema las organizaciones pueden configurar de acuerdo a sus necesidades la gestión de sus clientes, por lo cual pueden personalizar sus mediciones mediante el panel de control, visualizando en todo momento los recursos disponibles.

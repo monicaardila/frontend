@@ -13,9 +13,10 @@ function Acerca_de_nosotros() {
                         <div className="col-md-12 text-center">
                             <h3 className="Quienes-somos"> Quienes somos</h3>
                             <div className="underline mx-auto">
-                                <p>
-                                A medida que la tecnología avanza, se va dejando de lado, el impacto visual que tienen las largas filas en establecimientos privados y públicos, y que en la actualidad puede representar un riesgo inminente en la salud y la vida de cada una de las personas que están presente en ellas. 
-                                Desde el punto de vista cultural,el impacto es grande en gran parte del país, las filas y los largos tiempos de espera, puede representar malestar ocasionando que los turnos de atención se pierdan, lo que representa en muchas organizaciones, la pérdida de  ganancias ya que una de sus actividades principales, es la recepción de personas para la atención de sus solicitudes.
+                                <p className="underline ">
+                                Nuestra solucion es la mejor alternativa corporativa, que le permite a nuestros clientes, contar con el servicio de gestion de indicadores configurados a su medida, 
+                                unido a esto contar con un completo soporte tecnico, de alto nivel, nuestra experiencia es una de las mejores garantias, que integra el web service, 
+                                con el uso optimo del panel de control, en donde encontrara la mejor respuesta a la gestion de su servicio.  
                                 </p>
                             </div>
                         </div>
@@ -23,7 +24,7 @@ function Acerca_de_nosotros() {
                 </div>
             </section>
             <div className="col-md-12 mb-5 text-center">
-                <h3 className="mision_vision">Misión y visión</h3>
+                <h3 className="mision_vision">Misión y Visión</h3>
                 <div className="container_m_v ">
                     <div className="x4">
                         <h6>Mision</h6>
