@@ -11,10 +11,10 @@ function servicios(){
                 <ServiciosCard
                 title= "Basico"
                 style_card= "styleCard"
-                precio="100"
-                capacidad= "100"
-                numUsuarios="2"
-                envios="3"
+                precio="0.5"
+                capacidad= "5000"
+                soporte="24/7"
+
                 />
                 
                 <Button
@@ -27,10 +27,9 @@ function servicios(){
                 <ServiciosCard
                 title= "Profesional"
                 style_card= "styleCard"
-                precio="120"
-                capacidad= "150"
-                numUsuarios="3"
-                envios="5"
+                precio="0.4"
+                capacidad= "15000"
+                soporte="24/7"
 
                 />
                 <Button
@@ -43,10 +42,9 @@ function servicios(){
                 <ServiciosCard
                 title= "Master"
                 style_card= "styleCard"
-                precio="150"
-                capacidad= "200"
-                numUsuarios="10"
-                envios="8"
+                precio="0.3"
+                capacidad= "ILIMITADO"
+                soporte="247/"
                 />
                 <Button
                 nomClas= "btn-buy"

@@ -7,5 +7,14 @@
 .container_precio{
     font-weight: 600;
     margin: 2% 2%;
-    font-size: xxx-large;
+}
+.texto_precio{
+    display: flex;
+    font-size: 2vh;
+    margin: 5% 2%;
+}
+.precio{
+    display: flex;
+    align-items: flex-end;
+    font-size: xx-large;
 }
